@@ -1,0 +1,63 @@
+{
+  "name": "smart-panel-ui",
+  "version": "1.0.0",
+  "description": "User interface for smart panel web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --progress --hot --host localhost --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedFu01/smart-panel-ui.git"
+  },
+  "author": "Konrad Fuger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedFu01/smart-panel-ui/issues"
+  },
+  "homepage": "https://github.com/RedFu01/smart-panel-ui#readme",
+  "devDependencies": {
+    "autoprefixer": "7.2.3",
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.1.2",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "copy-webpack-plugin": "4.3.1",
+    "css-loader": "0.28.7",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-airbnb-base": "12.0.2",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "favicons-webpack-plugin": "0.0.7",
+    "html-webpack-plugin": "2.30.1",
+    "husky": "0.14.3",
+    "node-fetch": "1.7.3",
+    "node-sass": "4.7.2",
+    "postcss": "6.0.14",
+    "postcss-loader": "2.0.9",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.19.1",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "moment": "2.20.1",
+    "prop-types": "15.6.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-intl": "2.4.0",
+    "react-overlays": "0.8.3",
+    "react-router-dom": "4.2.2",
+    "react-style-proptype": "3.1.0",
+    "whatwg-fetch": "2.0.3"
+  }
+}
