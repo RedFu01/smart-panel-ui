@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "babel-polyfill": "6.26.0",
+    "google-polyline": "^1.0.0",
     "moment": "2.20.1",
     "prop-types": "15.6.0",
     "react": "16.2.0",
